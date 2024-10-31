@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #9d9d9d;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar {
+    background-color: #a2d2ff;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+#carousel img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#carousel img.active {
+    display: block;
+}
+
+#informacion, #contacto {
+    padding: 20px;
+    text-align: center;
+}
+#contacto-info {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#contacto-info h2 {
+    color: #005f73;
+}
+
+#whatsapp-link {
+    padding: 20px;
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px; 
+    white-space: nowrap;
+}
+
+.whatsapp-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
